@@ -1,0 +1,10 @@
+#questionBot
+#short interview with await..defer
+
+await read 'What is your name?', defer name
+await read ('What is your favorite food, ' + name) + '?',
+defer food
+await read ("Sounds tasty. What's so good about" + food)
+' ' + ' + name + ?'+ defer response
+write 'Fair. I might just go try me some' + food +' now. 
+Nice chat!'
